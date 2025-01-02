@@ -1,0 +1,105 @@
+
+.OurOffers {
+    padding:  0;
+    margin:  0;
+    position: relative;
+    min-height: 24vw;
+  }
+  .OurOffersBox {
+    border-radius: 4rem;
+    text-align: center;
+    padding: 0;
+    margin: 0 ;
+    @media (max-width: 1400px) {
+      margin-top: 15rem;
+    }
+  }
+  .OurOffers h2 {
+      font-size: 45px;
+      font-weight: 700;
+      margin: 64px 0;
+      border-bottom: 2px solid #004b7a;
+      color: #004b7a;
+      font-family: "Poppins", serif;
+      font-weight: 700;
+      font-style: normal;
+  }
+  .OurOffers p {
+      color: #B8B8B8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+  }
+  .skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .skill-slider .item img {
+    width: 30%;
+    aspect-ratio: 4/4;
+    margin: 0 auto 15px auto;
+  }
+  .background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }
+
+  .contact-button {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .contact-info {
+    display: none; /* Ocultar por defecto */
+    position: absolute;
+    height: 15vh;
+    width: 25vw;
+    top: 100%; /* Mostrar debajo del botón */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f1f1f1;
+    color: #000000;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .contact-button:hover .contact-info {
+    display: block; /* Mostrar al hacer hover */
+  }
+
+  .OurOffersBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .OurOffersBox h2{
+    margin: 2rem 0;
+  }
+
+  
+  .OurOffersBox p{
+    margin: 2rem 0;
+  }
+
+  
+  .OurOffersBox button{
+    margin: 2rem 0;
+    
+  }
+  
+
+  .item p {
+    color: #000;
+  }
