@@ -14,27 +14,28 @@ const Servicios: React.FC = () => {
         'La "apertura de caminos cuánticos" es un término utilizado en contextos espirituales y holísticos para describir un proceso de transformación personal y energética.',
     },
     {
-      titulo: 'Meditación Guiada',
+      titulo: 'CARTAS NATALES CUANTICAS',
       descripcion:
-        'Una práctica de meditación donde una voz guía al oyente a través de técnicas de relajación y visualización.',
+        'Las cartas natales cuanticas son una herramienta de asteologia cuantica que busca proporcionar la personalidad, el proposito de cida y el potencial espiritual de la persona.',
     },
   ];
 
   const cursos = [
     {
-      titulo: 'Curso de Mindfulness',
+      titulo: 'Terapia Floral',
       descripcion:
-        'Aprende técnicas para vivir el presente y manejar el estrés con prácticas de mindfulness.',
+        'La terapia floral es una forma de medicina altenativa que utiliza esencias florales para tratar problemas emocionales, mentales y fisicos',
     },
     {
-      titulo: 'Curso de Reiki',
+      titulo: 'Curso de Reiki Karuna y Reiki Usui',
       descripcion:
-        'Conéctate con la energía universal para sanar y equilibrar cuerpo y mente.',
+        'Conéctate con la energía universal para sanar y equilibrar cuerpo y mente. Ofrecemos cursos de Reiki Karuna  nivel 1,2 y maestria. Y tambien cursos de Reiki Usui nivel 1, 2, 3 y maestria',
     },
+
     {
-      titulo: 'Introducción a la Física Cuántica',
+      titulo: 'Tecnica del Arca 1 y 2',
       descripcion:
-        'Explora los principios básicos de la física cuántica en un lenguaje sencillo y accesible.',
+        'La tecnica del arca es una practica espiritual y energetica que busca proteger y equilibrar la energia personal, creando un espacio sagrado y seguro para la meditacion, la reflexión y la conexion con la espiritualidad',
     },
   ];
 

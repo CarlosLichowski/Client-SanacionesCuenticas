@@ -9,7 +9,7 @@ const SobreNosotros = () => {
   const integrantes = [
     {
       nombre: "Roberto Vizza",
-      descripcion: "Dir. Sanaciones Cuantifica",
+      descripcion: "Dir. Sanaciones Cuanticas",
       foto: persona1, // Ruta de la imagen
     },
     {
