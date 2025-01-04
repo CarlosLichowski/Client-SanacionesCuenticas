@@ -31,7 +31,7 @@ const Servicios: React.FC = () => {
     {
       titulo: 'Curso de Reiki Karuna y Reiki Usui',
       descripcion:
-        'Conéctate con la energía universal para sanar y equilibrar cuerpo y mente. Ofrecemos cursos de Reiki Karuna  nivel 1,2 y maestria. Y tambien cursos de Reiki Usui nivel 1, 2, 3 y maestria',
+        ' Ofrecemos cursos de Reiki Karuna  nivel 1,2 y maestria. Y tambien cursos de Reiki Usui nivel 1, 2, 3 y maestria. Conéctate con la energía universal para sanar y equilibrar cuerpo y mente.',
     },
 
     {
