@@ -4,10 +4,11 @@
     position: relative;
     background-color: #004b7a;
     height: 55vw;
+    letter-spacing: .8px;
     
   }
   .Knowledge h2 {
-    font-size: 45px;
+    font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
     font-family: "Poppins", serif;
@@ -16,7 +17,7 @@
   }
   .Knowledge p {
     color: #B8B8B8;
-    font-size: 18px;
+    font-size: 1.425px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px auto 30px auto;

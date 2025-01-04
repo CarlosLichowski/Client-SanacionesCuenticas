@@ -1,6 +1,6 @@
 .formContainer{
   width: 100vw;
-  min-height: 35vw;
+  min-height: 18vw;
   margin:  0  ;
   padding: 0;
   border: 1px solid #ccc;
@@ -9,15 +9,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Open Sans", serif;
+  letter-spacing: .8px;
   
 }
 
 .formContainer form {
-  width: 40vw;
+  width: 33vw;
   border: 2px solid #ccc;
   text-align: start;
   padding: 0 1.25rem 0 1.25rem;
   color: #ccc;
+  @media (max-width: 1300px) {
+    width: 60vw;
+  }
 }
 
 label {
@@ -28,14 +33,14 @@ label {
 input,
 textarea {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
   box-sizing: border-box;
 }
 
 textarea {
-  height: 100px;
+  height: 78px;
 }
 
 button[type="submit"] {

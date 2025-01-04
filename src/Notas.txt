@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-https://www.youtube.com/watch?v=hYv6BM2fWd8
 
-=======
 https://www.youtube.com/watch?v=hYv6BM2fWd8
 
 >>>>>>> b7dfe0661dc5be65aacfbc8fca430e8e0644b266

@@ -9,21 +9,24 @@
     padding: 0;
     background-color: #f2f2f2;
     text-align: center;
+    letter-spacing: .8px;
 
     
   }
   
   .SobreNosotros h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #004b7a;
     margin: -7rem 0 4rem 0;
-    font-family: "Poppins", serif;
+    font-family: "Open Sans", serif;
     font-weight: 700;
     font-style: normal;
     border-bottom: 2px solid #004b7a;
   }
   
   .integrantes {
+    font-family: "Open Sans", serif;
+    font-weight: 400;
     display: flex;
     width: 90%;
     gap: 7.125rem;
@@ -40,7 +43,7 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px 0;
-    font-size: 5rem;
+    font-size: 4rem;
     width: 25rem;
     height: 55vh;
     box-shadow: 0 2px 6px #004b7a;
@@ -66,13 +69,13 @@
   }
   
   .integrante h3 {
-    font-size: 2rem;
+    font-size: 1.625rem;
     margin-bottom: 10px;
     color: #555;
   }
   
   .integrante p {
-    font-size: 1.8rem;
+    font-size: 1.425rem;
     color: #666;
     line-height: 1.4;
     margin: 10px 0;

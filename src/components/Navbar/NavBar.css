@@ -11,6 +11,7 @@
     z-index: 9999;
     transition: 0.32 ease-in-out;
     background-color: #004b7a;
+    letter-spacing: .8px;
     @media (max-width:1200px) {
       padding: 0;
     }
@@ -35,6 +36,7 @@
 .navbarContainer a{
     margin: 5px;
     padding: 2px;
+    letter-spacing: .8px;
 }
 
 .navbarContainer a:hover{

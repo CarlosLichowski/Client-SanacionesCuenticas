@@ -4,32 +4,36 @@
     margin:  0;
     position: relative;
     min-height: 24vw;
+    font-family: "Open Sans", serif;
+    letter-spacing: .8px;
   }
   .OurOffersBox {
     border-radius: 4rem;
     text-align: center;
     padding: 0;
     margin: 0 ;
+    
     @media (max-width: 1400px) {
       margin-top: 15rem;
     }
   }
   .OurOffers h2 {
-      font-size: 45px;
-      font-weight: 700;
+      font-size: 3.5rem;
       margin: 64px 0;
       border-bottom: 2px solid #004b7a;
       color: #004b7a;
-      font-family: "Poppins", serif;
+      font-family: "Open Sans", serif;
       font-weight: 700;
       font-style: normal;
   }
   .OurOffers p {
       color: #B8B8B8;
-      font-size: 18px;
+      font-family: "Open Sans", serif;
+      font-size: 1.425rem;
       letter-spacing: 0.8px;
       line-height: 1.5em;
       margin: 14px 0 75px 0;
+      letter-spacing: .8px;
   }
   .skill-slider {
     width: 80%;
