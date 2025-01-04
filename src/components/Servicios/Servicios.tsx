@@ -14,7 +14,7 @@ const Servicios: React.FC = () => {
         'La "apertura de caminos cuánticos" es un término utilizado en contextos espirituales y holísticos para describir un proceso de transformación personal y energética.',
     },
     {
-      titulo: 'CARTAS NATALES CUANTICAS',
+      titulo: 'Cartas Natales Cuanticas',
       descripcion:
         'Las cartas natales cuanticas son una herramienta de asteologia cuantica que busca proporcionar la personalidad, el proposito de cida y el potencial espiritual de la persona.',
     },
