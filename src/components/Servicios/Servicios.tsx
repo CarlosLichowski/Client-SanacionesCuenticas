@@ -8,10 +8,16 @@ const Servicios: React.FC = () => {
       descripcion:
         'Las sanaciones cuánticas son un conjunto de técnicas que buscan mejorar la salud y el bienestar de una persona, basándose en los principios de la física cuántica.',
     },
+    
     {
       titulo: 'Apertura de Caminos',
       descripcion:
         'La "apertura de caminos cuánticos" es un término utilizado en contextos espirituales y holísticos para describir un proceso de transformación personal y energética.',
+    },
+        {
+      titulo: 'Terapia Floral',
+      descripcion:
+        'La terapia floral es una forma de medicina altenativa que utiliza esencias florales para tratar problemas emocionales, mentales y fisicos',
     },
     {
       titulo: 'Cartas Natales Cuanticas',
@@ -21,11 +27,7 @@ const Servicios: React.FC = () => {
   ];
 
   const cursos = [
-    {
-      titulo: 'Terapia Floral',
-      descripcion:
-        'La terapia floral es una forma de medicina altenativa que utiliza esencias florales para tratar problemas emocionales, mentales y fisicos',
-    },
+
     {
       titulo: 'Curso de Reiki Karuna y Reiki Usui',
       descripcion:
