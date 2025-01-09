@@ -1,7 +1,12 @@
 import React from 'react';
 import './Servicios.css'; // Asegúrate de tener este archivo en la misma carpeta o ajusta la ruta.
 
+
+
 const Servicios: React.FC = () => {
+
+  
+
   const servicios = [
     {
       titulo: 'Sanaciones Cuánticas',
@@ -32,6 +37,11 @@ const Servicios: React.FC = () => {
       titulo: 'Curso de Reiki Karuna y Reiki Usui',
       descripcion:
         ' Ofrecemos cursos de Reiki Karuna  nivel 1,2 y maestria. Y tambien cursos de Reiki Usui nivel 1, 2, 3 y maestria. Conéctate con la energía universal para sanar y equilibrar cuerpo y mente.',
+    },
+    {
+      titulo: 'Sanaciones Cuánticas',
+      descripcion:
+        'Curso de sanaciones cuanticas nivel 1 ,2 y 3',
     },
 
     {

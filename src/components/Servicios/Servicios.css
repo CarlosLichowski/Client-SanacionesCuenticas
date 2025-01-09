@@ -42,6 +42,9 @@
   font-size: 1.625rem;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
+  @media (max-width: 800px) {
+    width: 250px
+  }
 }
 
 .servicio:hover .descripcion,
@@ -51,6 +54,7 @@
 }
 
 .descripcion {
+  visibility: visible;
   position: absolute;
   top: 100%;
   left: 96%;
@@ -66,6 +70,10 @@
   z-index: 100;
   @media (max-width: 1400px) {
     top: 100%;
+  }
+
+  @media (max-width: 850px) {
+    left: 0;;
   }
 }
 

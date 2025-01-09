@@ -1,18 +1,41 @@
 
 .banner {
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
-  min-height: 62rem;
+  min-height: 110rem;
     padding: 0;
+    margin:  0 ;
     background-image: url('./assets/img/banner-bg.png');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin:  0 ;
+    @media (max-width: 850px) {
+      min-height: 64rem;
+    }
+  
+  }
 
-    
-    
+  .box2{
+    margin: 7rem 0 0 0;
+    text-align: center;
+  }
+
+  .box2 h2{
+    color: #004b7a;
+    border-bottom: 2px solid black;
+    text-shadow: .5008px -1px 1px #dcc659;
+  }
+
+  .certificado{
+    margin-top: 6rem;
+    width: 40vw;
+    height: auto;
+
+    @media (max-width: 800px) {
+      width: 75vw;
+    }
   }
 
   .BannerContainer{
@@ -114,6 +137,7 @@
   }
 
   .BannerColumn1{
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,10 +174,10 @@
 
  iframe {
   width: 700px;
-  height: 415px; /* Ancho base para pantallas anchas */
+  height: 415px; 
   @media (max-width: 1300px) {
     width: 500px;
-    height: 275px;  /* Ancho para pantallas menores a 1300px */
+    height: 275px;  
   }
 
   @media (max-width: 900px) {

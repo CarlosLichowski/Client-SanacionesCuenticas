@@ -2,6 +2,7 @@
 import './Banner.css';
 import { useEffect, useState } from 'react';
 import logo from '../../assets/img/logo.png';
+import certificado from '../../assets/certificado.png'
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -44,6 +45,8 @@ const Banner = () => {
 
   return (
     <section className='banner' id='home'>
+      <div className="box1">
+
       <div className='BannerContainer'>
         <div className='BannerColumn1'>
           <h1>Sanaciones Cuánticas</h1>
@@ -59,6 +62,11 @@ const Banner = () => {
             <iframe  src="https://www.youtube.com/embed/Vh5bgpoxWwI?si=pJEo-ZDo4QUMrd3e" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
          
         </div>
+      </div>
+      </div>
+      <div className="box2">
+        <h2>Entregamos certificado de participacion</h2>
+        <img src={certificado} className='certificado'/>
       </div>
     </section>
   );
