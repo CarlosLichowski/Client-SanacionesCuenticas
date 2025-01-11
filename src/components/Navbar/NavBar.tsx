@@ -26,6 +26,16 @@ const NavBar = () => {
               <div className='logoContainer'>
               <img src={logo} className='logo' alt="logo" />
               <h1>Sanaciones Cuanticas </h1>
+
+              <div className="NavSocialIconsContainerMobile">
+        <a href="#" onClick={handleWhatsAppClick}>
+          <img src={navIcon1} alt="whatsapp" />
+        </a>
+
+        <a href="https://www.instagram.com/sanacionescuanticas/">
+          <img src={navIcon2} alt="instagram" />
+        </a>
+      </div>
       </div>
       {/* <span></span>   TOGGLE ICON */}
 
@@ -34,6 +44,7 @@ const NavBar = () => {
   <a href="#ourOffers" className={activeLink === 'ourOffers' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('services')}>Servicios</a>
   <a href="#courses" className={activeLink === 'courses' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('courses')}>Cursos</a>
   <a href="#aboutus" className={activeLink === 'aboutus' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutus')}>Equipo</a>
+  
 </ul>
 
       <ul className="links">
@@ -41,6 +52,8 @@ const NavBar = () => {
   <a href="#ourOffers" className={activeLink === 'ourOffers' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('services')}>Servicios</a>
   <a href="#courses" className={activeLink === 'courses' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('courses')}>Cursos</a>
   <a href="#aboutus" className={activeLink === 'aboutus' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutus')}>Equipo</a>
+  <a href='#ContactUs' className='contactMobile'  role="button" onClick={() => console.log('connect')}>Contacto</a>
+  
 </ul>
 
 
@@ -55,7 +68,7 @@ const NavBar = () => {
         </a>
       </div>
 
-      <a href='#ContactUs' className='button-15'  role="button" onClick={() => console.log('connect')}>Contactanos</a>
+      <a href='#ContactUs' className='button-15'  role="button" onClick={() => console.log('connect')}>Contacto</a>
 
       
     </div>

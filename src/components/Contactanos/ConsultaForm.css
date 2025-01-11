@@ -1,12 +1,13 @@
 .formContainer{
   width: 100%;
-  min-height: 18vw;
+  min-height: 20vw;
   margin:  0  ;
   padding: 0;
   border: 1px solid #ccc;
   background-color: #004b7a;
   border-radius: 5px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "Open Sans", serif;
@@ -15,6 +16,7 @@
 }
 
 .formContainer form {
+  margin-bottom: 1.25rem;
   width: 33vw;
   border: 2px solid #ccc;
   text-align: start;
