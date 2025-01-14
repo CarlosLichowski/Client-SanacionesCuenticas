@@ -68,7 +68,7 @@ const NavBar = () => {
         </a>
       </div>
 
-      <a href='#ContactUs' className='button-15'  role="button" onClick={() => console.log('connect')}>Contacto</a>
+      {/* <a href='#ContactUs' className='button-15'  role="button" onClick={() => console.log('connect')}>Contacto</a> */}
 
       
     </div>

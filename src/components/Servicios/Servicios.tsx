@@ -1,7 +1,6 @@
 import React from 'react';
 import './Servicios.css'; // Asegúrate de tener este archivo en la misma carpeta o ajusta la ruta.
-
-
+import certificado from '../../assets/certificado.png'
 
 const Servicios: React.FC = () => {
 
@@ -79,6 +78,10 @@ const Servicios: React.FC = () => {
         ))}
       </div>
         </div>
+        <div className="box2">
+        <h2>Entregamos certificado de participacion</h2>
+        <img src={certificado} className='certificado'/>
+      </div>
     </div>
   );
 };

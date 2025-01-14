@@ -1,10 +1,13 @@
 
 .banner {
+   
+
+  
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-  min-height: 110rem;
+  min-height: 85vh;
     padding: 0;
     margin:  0 ;
     background-image: url('./assets/img/banner-bg.png');
@@ -17,32 +20,12 @@
   
   }
 
-  .box2{
-    margin: 7rem 0 0 0;
-    text-align: center;
-  }
-
-  .box2 h2{
-    color: #004b7a;
-    border-bottom: 2px solid black;
-    text-shadow: .5008px -1px 1px #dcc659;
-  }
-
-  .certificado{
-    margin-top: 6rem;
-    width: 40vw;
-    height: auto;
-
-    @media (max-width: 800px) {
-      width: 75vw;
-    }
-  }
-
   .BannerContainer{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 90vw;
+    margin-top: 100px; /* Midiendo el largo del navbar puedo asegurar  que empiece después del navbar poniendole un margin exactamente del largo del navbar */
     @media (max-width: 1400px) {
       flex-direction: column;
     }
@@ -114,20 +97,7 @@
     margin-top: 5rem;
     margin-left: 25px;
   }
-  .banner img {
-    animation: updown 25s linear infinite;
-  }
-  @keyframes updown {
-      0% {
-          transform: translateY(-20px);
-      }
-      50% {
-          transform: translateY(20px);
-      }
-      100% {
-          transform: translateY(-20px);
-      }
-  }
+
   .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
   }

@@ -1,6 +1,6 @@
 
 import './OurOffers.css'
-import chacra1 from '../../assets/img/logo.png'
+import chacra1 from '../../assets/img/logo2.png'
 import chacra2 from '../../assets/img/chacra 2.png'
 import chacra3 from '../../assets/img/chacra 3.png'
 import chacra4 from '../../assets/img/chacra 4.png'
@@ -36,7 +36,7 @@ export const OurOffers = () => {
             <div className="carouselContainer">
                 <div className="col-12">
                     <div className="OurOffersBox">
-                        <h2>Los servicio que ofrecemos</h2>
+                    <h2>Nuestros servicios</h2>    
 
 
 <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={5000} className="owl-carousel owl-theme skill-slider"

@@ -2,7 +2,7 @@
 import './Banner.css';
 import { useEffect, useState } from 'react';
 import logo from '../../assets/img/logo.png';
-import certificado from '../../assets/certificado.png'
+
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -64,10 +64,7 @@ const Banner = () => {
         </div>
       </div>
       </div>
-      <div className="box2">
-        <h2>Entregamos certificado de participacion</h2>
-        <img src={certificado} className='certificado'/>
-      </div>
+
     </section>
   );
 };
