@@ -14,7 +14,7 @@
     background-color: #004b7a;
     letter-spacing: .8px;
     @media (max-width: 50rem) {
-      padding: 0;
+      padding: 0 25px;
       justify-content: center;
     }
 
