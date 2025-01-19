@@ -16,7 +16,7 @@ const Servicios: React.FC = () => {
     {
       titulo: 'Apertura de Caminos',
       descripcion:
-        'La "apertura de caminos cuánticos" es un término utilizado en contextos espirituales y holísticos para describir un proceso de transformación personal y vibracional.',
+        'La apertura de caminos cuánticos es un término utilizado en contextos espirituales y holísticos para describir un proceso de transformación personal y vibracional.',
     },
         {
       titulo: 'Terapia Floral',
