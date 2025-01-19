@@ -11,7 +11,7 @@
     top: 0;
     z-index: 9999;
     transition: 0.32 ease-in-out;
-    background-color: #004b7a;
+    background-color: #0351be;
     letter-spacing: .8px;
     @media (max-width: 50rem) {
       padding: 0 25px;
@@ -28,6 +28,7 @@
         align-items: center;
         text-align: center  ;
         flex-wrap: wrap;
+        top: 95px;
       }
       
       
@@ -37,6 +38,13 @@
         margin: 3px;
         padding: 0;
         letter-spacing: .8px;
+        @media (max-width:800px) {
+          
+          margin: 0;
+          letter-spacing: 0;
+          padding: 0;
+          border: none;
+        }
       }
       
       .navbarContainer a:hover{
@@ -75,7 +83,6 @@
     display: none;
     min-width: 7vw;
     height: 32px;
-    background: rgba(217, 217, 217, 0.1);
     color: #fff;
     display: inline-flex;
     align-items: center;
@@ -87,12 +94,12 @@
   padding: .0625rem;
   font-size: 1rem;
     @media (max-width:62.5rem) {
+      border: none;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       font-size: .6rem;
-      padding: .1875rem;
     }
   }
   
@@ -136,23 +143,29 @@
 
   }
   .logoContainer{
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: #dcb672;
-    text-shadow: 1.5008px -0.8px 1px  #e1ff00;
-    text-shadow: 1px 1px 2px #e1ff00ee;
-    font-family: "Poppins", serif;
-    font-weight: 500;
+    color: #f3bb05;
+    text-shadow: 1.5008px -0.8px 1px  #fdc400;
+    text-shadow: 1px 1px 2px #fdc400;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
     font-style: normal;
     font-size: 1rem;
+    letter-spacing: 1.5px;
     
     @media (max-width:75rem) {
       font-weight: 500;
       font-size: .5rem;
       flex-direction: column;
       align-items: start;
+    }
+
+    @media (max-width:800px) {
+      margin-left: 15vw;
     }
   }
 
@@ -161,7 +174,7 @@
   width: 3vw;
   aspect-ratio: 9/7;
   margin: 0 1rem 0 0;
-  background-color: #004b7a;
+  
   border-radius: 50%;
   padding: .25rem;
   @media (max-width: 62.5rem) {
@@ -230,6 +243,45 @@
 
 
 
-.burguerBtn{
-display: none;
+.hamburger-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+
+  @media (max-width: 800px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.hamburger-btn:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 800px) {
+  .links a {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .links.show a {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .links.show a:nth-child(1) { transition-delay: 0.1s; }
+  .links.show a:nth-child(2) { transition-delay: 0.2s; }
+  .links.show a:nth-child(3) { transition-delay: 0.3s; }
+  .links.show a:nth-child(4) { transition-delay: 0.4s; }
+  .links.show a:nth-child(5) { transition-delay: 0.5s; }
 }
