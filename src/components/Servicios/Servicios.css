@@ -37,7 +37,7 @@
   border: 1px solid #ccc;
   padding: 10px;
   text-align: center;
-  background-color: #0351be;
+  background-color: #004b7a;
   color: #ffffff;
   font-size: 1.625rem;
   cursor: pointer;
@@ -87,6 +87,10 @@ justify-content: center;
 
 }
 
+.box1 p {
+  color: #004b7a;
+  border-bottom: 1px solid #004b7a;
+}
 
 .box2{
   margin: 7rem 0 0 0;

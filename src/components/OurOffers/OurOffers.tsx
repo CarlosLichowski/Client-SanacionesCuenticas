@@ -3,7 +3,7 @@ import './OurOffers.css'
 import chacra1 from '../../assets/img/logo2.png'
 import chacra2 from '../../assets/img/chacra 2.png'
 import chacra3 from '../../assets/img/chacra 3.png'
-import chacra4 from '../../assets/img/chacra 4.png'
+
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -31,7 +31,7 @@ export const OurOffers = () => {
   };
 
   return (
-    <section className='OurOffers' id="ourOffers">
+    <section className='OurOffers' >
         <div className="container">
             <div className="carouselContainer">
                 <div className="col-12">
@@ -54,10 +54,7 @@ export const OurOffers = () => {
                                 <img src={chacra3} alt="Image" />
                                 <p>TERAPIA FLORAL</p>
                             </div>
-                            <div className="item">
-                                <img src={chacra4} alt="Image" />
-                                <p>OPERACIONES ASTRALES</p>
-                            </div>
+
                         </Carousel>
                     </div>
                 </div>

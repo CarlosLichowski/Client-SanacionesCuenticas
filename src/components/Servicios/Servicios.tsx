@@ -10,18 +10,18 @@ const Servicios: React.FC = () => {
     {
       titulo: 'Sanaciones Cuánticas',
       descripcion:
-        'Las sanaciones cuánticas son un conjunto de técnicas que buscan mejorar la salud y el bienestar de una persona, basándose en los principios de la física cuántica.',
+        'Las sanaciones cuánticas son un conjunto de técnicas que buscan mejorar el bienestar de personas, mascotas y plantas, basándose en los principios de la física cuántica.',
     },
     
     {
       titulo: 'Apertura de Caminos',
       descripcion:
-        'La "apertura de caminos cuánticos" es un término utilizado en contextos espirituales y holísticos para describir un proceso de transformación personal y energética.',
+        'La "apertura de caminos cuánticos" es un término utilizado en contextos espirituales y holísticos para describir un proceso de transformación personal y vibracional.',
     },
         {
       titulo: 'Terapia Floral',
       descripcion:
-        'La terapia floral es una forma de medicina altenativa que utiliza esencias florales para tratar problemas emocionales, mentales y fisicos',
+        'La terapia floral es una forma de terapia altenativa que utiliza esencias florales para tratar problemas emocionales, mentales y fisicos',
     },
     {
       titulo: 'Cartas Natales Cuanticas',
@@ -51,8 +51,8 @@ const Servicios: React.FC = () => {
   ];
 
   return (
-    <div className="ServiciosMainContainer" id='courses'>
-      <div className='box1'>
+    <div className="ServiciosMainContainer" id="ourOffers" >
+      <div className='box1' >
 
       <h2>Servicios</h2>
       <div className="servicios-container">
@@ -62,11 +62,12 @@ const Servicios: React.FC = () => {
             <div className="descripcion">{servicio.descripcion}</div>
           </div>
         ))}
+        <p>Le recordamos que esto no reemplaza la medicina , no avandone su tratsmiento.</p>
       </div>
 
         </div>
 
-        <div className='box2' >
+        <div className='box2' id='courses'>
 
       <h2>Cursos</h2>
       <div className="cursos-container" >
