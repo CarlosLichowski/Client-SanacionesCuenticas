@@ -26,7 +26,7 @@ const Servicios: React.FC = () => {
     {
       titulo: 'Cartas Natales Cuanticas',
       descripcion:
-        'Las cartas natales cuanticas son una herramienta de asteologia cuantica que busca proporcionar la personalidad, el proposito de cida y el potencial espiritual de la persona.',
+        'Las cartas natales cuanticas son una herramienta de astrologia cuantica que busca proporcionar la personalidad, el proposito de vida y el potencial espiritual de la persona.',
     },
   ];
 
@@ -62,7 +62,7 @@ const Servicios: React.FC = () => {
             <div className="descripcion">{servicio.descripcion}</div>
           </div>
         ))}
-        <p>Le recordamos que esto no reemplaza la medicina , no avandone su tratsmiento.</p>
+        <p>Le recordamos que esto no reemplaza la medicina , no abandonen su tratamiento.</p>
       </div>
 
         </div>
