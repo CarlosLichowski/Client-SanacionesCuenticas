@@ -44,13 +44,17 @@ const Servicios: React.FC = () => {
     {
       titulo: 'Sanaciones Cuánticas',
       
-      descripcion: ['Curso de sanaciones cuánticas nivel 1, 2 y 3'],
+      descripcion: ['Sanaciones cuánticas nivel 1, 2 y 3',
+                    'Mejora el bienestar de personas, mascotas y plantas, basándose en los principios de la física cuántica.'
+                    
+      ],
     },
     {
       titulo: 'Técnica del Arca 1 y 2',
     
       descripcion: [
-        'La técnica del arca es una práctica espiritual y energética que busca proteger y equilibrar la energía personal.',
+        'Técnica del Arca 1 y 2',
+        'Práctica espiritual y energética que busca proteger y equilibrar la energía personal.',
         
       ],
     },

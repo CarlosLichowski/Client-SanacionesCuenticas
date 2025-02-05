@@ -126,10 +126,29 @@ height: 450px;
 }
 
 .curso .descripcion {
-  color: rgb(29, 29, 29);
-  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 48%;
+  background: none;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 1px rgb(49, 49, 49);
+  text-align: center;
+  box-shadow: none;
   
 
+}
+
+.servicio .descripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 47%;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: none;
 }
 
 .descripcion p {
