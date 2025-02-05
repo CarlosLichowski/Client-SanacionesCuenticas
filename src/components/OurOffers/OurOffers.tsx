@@ -5,6 +5,7 @@ import chacra2 from '../../assets/img/chacra 2.png'
 import chacra3 from '../../assets/img/chacra 3.png'
 
 
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -36,7 +37,7 @@ export const OurOffers = () => {
             <div className="carouselContainer">
                 <div className="col-12">
                     <div className="OurOffersBox">
-                    <h2>Nuestros servicios</h2>    
+                    <h2>Beneficios</h2>    
 
 
 <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={5000} className="owl-carousel owl-theme skill-slider"
@@ -44,7 +45,7 @@ export const OurOffers = () => {
 
                             <div className="item">
                                 <img src={chacra1} alt="Image" />
-                                <p>SANACIONES CUANTICAS</p>
+                                <p>SANACIONES CUÁNTICAS</p>
                             </div>
                             <div className="item">
                                 <img src={chacra2} alt="Image" />

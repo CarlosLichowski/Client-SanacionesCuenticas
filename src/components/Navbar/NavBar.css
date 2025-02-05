@@ -11,11 +11,13 @@
     top: 0;
     z-index: 9999;
     transition: 0.32 ease-in-out;
-    background-color: #004b7a;
+    background: rgb(0,65,105);
+    background: linear-gradient(21deg, rgba(0,65,105,1) 4%, rgba(0,83,135,1) 50%, rgba(0,102,166,1) 97%);
     letter-spacing: .8px;
-    @media (max-width: 50rem) {
-      padding: 0 25px;
+    @media (max-width: 1000px) {
+      padding: 0 ;
       justify-content: center;
+      height: 120px;
     }
 
 }
@@ -148,30 +150,33 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: #f3bb05;
+    color: #fcbb51;
     text-shadow: 1.5008px -0.8px 1px  #fdc400;
     text-shadow: 1px 1px 2px #fdc400;
     font-family:Arial, Helvetica, sans-serif;
-    font-weight: 200;
     font-style: normal;
     font-size: 1rem;
     letter-spacing: 1.5px;
     
-    @media (max-width:75rem) {
+    @media (max-width:1200px) {
       font-weight: 500;
       font-size: .5rem;
       flex-direction: column;
       align-items: start;
     }
 
-    @media (max-width:800px) {
+    @media (max-width:900px) {
       margin-left: 15vw;
     }
   }
 
+  .logoContainer h1{
+    width: 200px;
+  }
+
   
   .logo{
-  width: 3vw;
+  width: 4vw;
   aspect-ratio: 9/7;
   margin: 0 1rem 0 0;
   
@@ -203,6 +208,7 @@
 	width: 40%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
+  
 }  
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);

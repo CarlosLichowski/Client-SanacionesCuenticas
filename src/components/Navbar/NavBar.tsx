@@ -3,6 +3,7 @@ import { useState } from 'react';
 import logo from '../../assets/img/logo2.png';
 import navIcon1 from '../../assets/whatappicon.png';
 import navIcon2 from '../../assets/instagramicon.png';
+import navIcon3 from '../../assets/youtubeicon.png';
 import { Menu, X } from 'lucide-react'; // Using Lucide icons instead of image
 
 const NavBar = () => {
@@ -35,7 +36,7 @@ const NavBar = () => {
 
       <div className='logoContainer'>
         <img src={logo} className='logo' alt="logo" />
-        <h1>Sanaciones Cuanticas</h1>
+        <h1>Sanaciones Cuánticas</h1>
 
         <div className="NavSocialIconsContainerMobile">
           <a href="#" onClick={handleWhatsAppClick}>
@@ -90,6 +91,10 @@ const NavBar = () => {
       <div className="NavSocialIconsContainer">
         <a href="#" onClick={handleWhatsAppClick}>
           <img src={navIcon1} alt="whatsapp" />
+        </a>
+
+        <a href="https://www.youtube.com/@sanacionescuanticas-j6g">
+          <img src={navIcon3} alt="youtube" />
         </a>
 
         <a href="https://www.instagram.com/sanacionescuanticas/">
